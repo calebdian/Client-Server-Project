@@ -1,0 +1,70 @@
+/* Apply styles to the body for background or overall layout */
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f1f1f1;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+/* Style the form container */
+form {
+ background-color: #ffffff;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ text-align: center;
+}
+
+/* Style the form heading */
+h1 {
+ color: #333;
+ margin-bottom: 20px;
+}
+
+/* Style form input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+ width: 100%;
+ padding: 10px;
+ margin: 10px 0;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+ background-color: #007BFF;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ padding: 10px 20px;
+ cursor: pointer;
+ margin-top: 10px;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+ background-color: #0056b3;
+}
+
+/* Style the "Login" link */
+p {
+ text-align: center;
+ color: #333;
+}
+
+a {
+ text-decoration: none;
+ color: #007BFF;
+}
+
+a:hover {
+ text-decoration: underline;
+ color: #0056b3;
+}

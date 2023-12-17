@@ -1,0 +1,58 @@
+/* Apply styles to the form container */
+body{
+ background: linear-gradient(white,lightblue);
+}
+form {
+ max-width: 300px;
+ margin: 0 auto;
+ padding: 20px;
+ background: transparent;
+ border-radius: 5px;
+ box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.8);
+}
+
+/* Style the form header */
+h1 {
+ text-align: center;
+ color: #333;
+}
+
+/* Style form fields and labels */
+input[type="text"],
+input[type="password"] {
+ width: 100%;
+ padding: 10px;
+ margin: 10px 0;
+ border: 1px solid #ccc;
+ border-radius: 3px;
+ text-align: center;
+}
+input::placeholder{
+ text-align: center;
+}
+/* Style the submit button */
+input[type="submit"] {
+ background-color: #007BFF;
+ color: #fff;
+ border: none;
+ border-radius: 10px;
+ padding: 10px 20px;
+ cursor: pointer;
+ text-align: center;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
+ margin-left: 30%;
+ width: 100px;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+ background-color: #0056b3;
+}
+
+/* Add spacing between the form elements */
+br {
+ clear: both;
+}
